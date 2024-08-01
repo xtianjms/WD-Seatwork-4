@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px 100px;
+    transition: all 1s ease;
+}
+
+.menu_left {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+
+}
+
+.btn-contact {
+    display: flex;
+    border: none;
+    outline: none;
+    margin-left: 1000px;
+    margin-top: 5px;
+    padding: 8px 18px;
+    color: #0d2846;
+    background-color: #9b9b9b;;
+    transition: all 0.3s ease;
+
+    &:hover {
+        transform: scale(1.1);
+        background-color: #9b9b9b;;
+        color: #c7cfd6;
+    }
+}
+
+.menu-li .menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.menu-li .menu a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
+}
+
+.header {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #2d2d2d;
+}
+
+.text-content {
+    padding: 0px 75px;
+    align-self: center;
+}
+
+.text-content .main-text h1 {
+    font-size: 4.2rem;
+    margin-bottom: 1rem;
+    color: #9b9b9b;
+}
+
+.text-content .main-text h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #9b9b9b;
+}
+
+.text-content .main-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1.75rem;
+    color: #9b9b9b;
+}
+
+.text-content .main-text button {
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    color: #2d2d2d;
+    background-color: #9b9b9b;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        transform: scale(1.1);
+        background-color: #9b9b9b;
+        color: #c7cfd6;
+    }
+}
+
+.img-box img {
+    object-fit: cover;
+}
+
+
+.social-icon {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    bottom: 0;
+    right: 0;
+}
+
+.social-menu {
+    padding: 0px 20px;
+}
+
+.icon-list {
+    list-style: none;
+    text-align: center;
+    margin: 15px 0px;
+    padding: 4px 0px;
+}
+
+.icon-list a svg {
+    width: 20px;
+    height: 20px;
+    fill: #c7cfd6;
+    transition: all 0.3s ease;
+
+    &:hover {
+        display: flex;
+        width: 35px;
+        height: 35px;
+        padding: 5px;
+        border-radius: 50%;
+        background-color: #17242e;
+    }
+}
+
+@media (max-width:900px) {
+    .sm-hidden {
+        display: none;
+    }
+
+    .lg-hidden {
+        display: block;
+    }
+
+    .navbar {
+        padding: 10px 25px;
+    }
+
+    .menu-li {
+        position: fixed;
+        top: -550px;
+        left: 0px;
+        color: inherit;
+        background-color: #fff;
+        padding: 10px 25px;
+        width: 100%;
+        opacity: 0;
+        z-index: -1;
+        visibility: hidden;
+        transition: all 1s ease;
+        transform-origin: bottom;
+    }
+
+    .navbar.active {
+        background-color: #fff;
+    }
+
+    .menu-li.active {
+        left: 0;
+        top: 60px;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .menu-li .menu {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:1200px) {
+    .text-content .main-text h1 {
+        font-size: 3rem;
+        margin-bottom: 0px;
+    }
+
+    .text-content .main-text p {
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width:900px) {
+    .header {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .text-content {
+        color: #fff;
+        align-self: auto;
+        padding: 40px 40px;
+    }
+
+    .text-content .main-text h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .text-content .main-text h5 {
+        margin-bottom: 0.5rem;
+    }
+
+    .text-content .main-text p {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .img-box {
+        position: absolute;
+        top: 0px;
+        z-index: -1;
+        left: 0px;
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media (max-width:500px) {
+    .text-content {
+        padding: 20px 15px;
+    }
+
+    .text-content .main-text h1 {
+        font-size: 2rem;
+    }
+
+    .social-icon {
+        display: none;
+    }
+}
