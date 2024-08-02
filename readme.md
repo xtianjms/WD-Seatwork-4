@@ -9,11 +9,11 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Hero Section Gallery</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+
 </div>
 
 <br />
@@ -57,13 +57,27 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This project showcases a Features Display Website built using pure HTML and CSS. It includes a landing page and multiple feature pages with distinct and visually appealing layouts.
 
 Guiding Question:
 - What is the project
+The project is a Features Display Website built using pure HTML and CSS. It includes a landing page and multiple feature pages that showcase different and distinct design layouts.
+
 - Whats the purpose
+The purpose of this project is to demonstrate the ability to create visually appealing and functional web pages using basic web technologies.
+
 - What are key components
+Landing Page: 
+  - Title: Landing Page
+  - Subtitle: Seatwork 4
+  - Description: My website features a variety of distinct hero layouts, each meticulously crafted with HTML, CSS, and, JavaScript.
+  - Navigation: Links to feature pages.
+
 - What technology used and how it is used
+HTML:
+  - Used to structure the content of the landing page and feature pages.
+CSS:
+  - External CSS files are used to style the landing page and feature pages, ensuring separation of concerns and maintainable code.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -117,4 +131,18 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+|Google Fonts| Ideas for fonts | https://fonts.google.com |
+
+## Wakatime
+<div align="center" float="left">
+  <p>
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=xtianjms&show_icons=true&theme=dark" alt="xtianjms" width=400 />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xtianjms&layout=compact&theme=dark" alt="xtianjms" width=310 />
+  </p>
+  <p>
+    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=xtianjms&theme=radical&hide_border=false" alt="xtianjms" width=430 />
+    <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=xtianjms&theme=tokyonight&utcOffset=+08" alt="xtianjms" width=310 />
+  </p>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=xtianjms&theme=tokyonight" alt="xtianjms" style="max-width: 100%;border: 1px solid white;border-radius: 6px;" width=600></img>
+
+</div>
