@@ -79,7 +79,7 @@ section.hero > div {
 }
 
 section.hero {
-    background-image: url(/pages/page3/assets/img/gunlancer.jpg);
+    background-image: url(../img/gunlancer.jpg);
     background-repeat: no-repeat;
     background-position:top;
     background-size: cover;
