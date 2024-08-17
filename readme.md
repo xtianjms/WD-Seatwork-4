@@ -60,20 +60,17 @@
 This project showcases a Features Display Website built using pure HTML and CSS. It includes a landing page and multiple feature pages with distinct and visually appealing layouts.
 
 Guiding Question:
-- What is the project
+
 The project is a Features Display Website built using pure HTML and CSS. It includes a landing page and multiple feature pages that showcase different and distinct design layouts.
 
-- Whats the purpose
 The purpose of this project is to demonstrate the ability to create visually appealing and functional web pages using basic web technologies.
 
-- What are key components
 Landing Page: 
   - Title: Landing Page
   - Subtitle: Seatwork 4
   - Description: My website features a variety of distinct hero layouts, each meticulously crafted with HTML, CSS, and, JavaScript.
   - Navigation: Links to feature pages.
 
-- What technology used and how it is used
 HTML:
   - Used to structure the content of the landing page and feature pages.
 CSS:
