@@ -65,12 +65,6 @@ The project is a Features Display Website built using pure HTML and CSS. It incl
 
 The purpose of this project is to demonstrate the ability to create visually appealing and functional web pages using basic web technologies.
 
-Landing Page: 
-  - Title: Landing Page
-  - Subtitle: Seatwork 4
-  - Description: My website features a variety of distinct hero layouts, each meticulously crafted with HTML, CSS, and, JavaScript.
-  - Navigation: Links to feature pages.
-
 HTML:
   - Used to structure the content of the landing page and feature pages.
 CSS:
@@ -80,12 +74,14 @@ CSS:
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website
-
+- Title: Landing Page
+- Subtitle: Seatwork 4
+- Description: My website features a variety of distinct hero layouts, each meticulously crafted with HTML, CSS, and, JavaScript.
+- Navigation: Links to feature pages.
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -126,7 +122,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-|Google Fonts| Ideas for fonts | https://fonts.google.com |
+| remove bg | To remove background from photos | https://www.remove.bg/ |
 
 ## Wakatime
 <div align="center" float="left">
